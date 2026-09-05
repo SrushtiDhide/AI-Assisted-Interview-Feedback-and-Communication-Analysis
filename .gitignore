@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Pytest cache
+.pytest_cache/
+
+# Local tools and portable binaries
+tools/
+mingit*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Databases
+database/*.db-journal
+
+# Audio recordings and temporary uploads (keep directory with .gitkeep)
+audio/recordings/*
+!audio/recordings/.gitkeep
+
+# Generated reports (keep sample and directory with .gitkeep)
+reports/generated_reports/*
+!reports/generated_reports/.gitkeep
+!reports/generated_reports/sample_interview_report.md
+
+# Models and large binaries
+models/whisper/
+*.bin
+*.onnx
+
+# Environment variables
+.env
+.env.local
+
+# Operating System files
+.DS_Store
+Thumbs.db
