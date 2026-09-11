@@ -58,6 +58,9 @@ flowchart TD
 
 3. Directory Structure
 
+## 3. Directory Structure
+
+```text
 AI_Interview_Feedback/
 ├── app.py                      # Main Streamlit web application & user interface
 ├── requirements.txt            # Pinned, compatible Python dependencies
@@ -92,6 +95,7 @@ AI_Interview_Feedback/
 │   └── test_database.py        # Unit tests for SQLite schema, foreign keys, and queries
 └── notebooks/
     └── data_analysis.ipynb     # Educational exploratory data analysis & NLP simulations
+```
 
 4. Installation & Setup Guide
 
